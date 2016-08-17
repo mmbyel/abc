@@ -1,0 +1,32 @@
+diff --git a/footer.jsp b/footer.jsp
+index 3c60639..1cb14c5 100644
+--- a/footer.jsp
++++ b/footer.jsp
+@@ -1,3 +1,5 @@
++a1
++
+ <<<<<<< HEAD
+ footer v5
+ =======
+diff --git a/header.jsp b/header.jsp
+index 241ce59..dc90569 100644
+--- a/header.jsp
++++ b/header.jsp
+@@ -1,3 +1,6 @@
++a1
++
++
+ <<<<<<< HEAD
+ header v5
+ =======
+diff --git a/index.jsp b/index.jsp
+index 47b230e..266e3eb 100644
+--- a/index.jsp
++++ b/index.jsp
+@@ -1,3 +1,6 @@
++a1
++
++
+ <<<<<<< HEAD
+ index v5
+ =======
