@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 footer v5
+=======
+footer v6
+
+>>>>>>> br1
 
 <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="${jdbc.driverClassName}" />
@@ -10,7 +15,8 @@ footer v5
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property  name="dataSource" ref="dataSource" />
         <property name="mapperLocations" value="classpath*:mybatis/**/*.xml" />
-    </bean>
+   
+   </bean>
 
     <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
         <constructor-arg index="0" ref="sqlSessionFactory" />
